@@ -1,0 +1,31 @@
+#servicios{
+  margin-bottom:5%;
+}
+
+.servicio h2{
+  position: relative;
+  width: 40%;
+  margin: 5% auto;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.servicio h3{
+  color:#006847;
+  font-weight: bolder;
+}
+
+.servicio .col-xs-12 {
+  padding:0;
+}
+
+
+.servicio h2::before{
+  content: '';
+  width: 60%;
+  height: 10px;
+  background-color: #006847;
+  position: absolute;
+  left: 20%;
+  bottom: -15px;
+}

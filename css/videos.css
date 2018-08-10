@@ -1,0 +1,23 @@
+h2{
+  text-align: center;
+  border-bottom: 10px #006847 solid;
+  width: 50%;
+  margin: auto;
+  padding: 2% 0px;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+h3, h5{
+  color:#000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-xs-6{
+margin-top:15px;
+}
+
+.sharing{
+  margin-top: 15px;
+}

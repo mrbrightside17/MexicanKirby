@@ -1,0 +1,17 @@
+h2{
+  color:#006847;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-group label{
+  color:#006847;
+}
+
+button{
+  padding-bottom:10px;
+  float: right;
+  background-color: #006847!important;
+  border: none!important;
+  color: #FFF;
+}

@@ -1,0 +1,139 @@
+/**parent element**/
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/**Font**/
+@font-face{
+  font-family: sans-serif;
+
+}
+
+div#datosSuperior{
+  padding: 10px 5%;
+}
+
+/**Header code opening*/
+
+header .navbar{
+  border-radius: 0;
+}
+.img-responsive{
+  padding:10px;
+  margin:0 auto;
+}
+
+.col-md-12{
+  height:inherit;
+  background-color: #000;
+}
+
+.col-md-12 p{
+  background-color: #000;
+  color: #FFF;
+
+}
+
+.UpperContactBarInferior{
+  background-color: #006847;
+  height: 7px;
+  margin:0;
+  padding:0;
+}
+
+header ul#navbar-menu{
+  align-content: center;
+}
+
+header ul#navbar-menu > li {
+
+}
+
+/**Contact data icons**/
+i.fa-envelope, i.fa-phone{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/**Contact data icons**/
+
+
+/**affix scrolling navigation bar**/
+.affix{
+  top: 0;
+  width: 100%;
+  z-index: 9999!important;
+}
+
+.affix + .container-fluid{
+  padding-top: 60px;
+}
+/**affix scrolling navigation bar**/
+
+/**Header code closing*/
+
+
+
+
+
+
+/**footing code opening**/
+.footing{
+  
+}
+
+.footing .col-sm-4{
+  padding-top:10px;
+}
+
+.footing .col-sm-1{
+  padding-top:20px;
+}
+
+.footing .img-responsive{
+  width:80%;
+  height: auto;
+  align-items: center;
+}
+
+.footing i.fa-circle{
+  color:#006847;
+}
+
+
+.footing i.fa-facebook{
+  color:#000;
+  font-size: 34px;
+}
+
+.footing i.fa-instagram{
+  color:#000;
+  font-size: 34px;
+}
+
+.footing i.fa-youtube-play{
+  color:#000;
+  font-size: 34px;
+}
+
+.footing i.fa-twitter{
+  color:#000;
+  font-size: 34px;
+}
+
+.footing{
+  background-color: #000;
+
+}
+
+.footing h2, .footing h3, .footing  h4{
+  color: #006847;
+  text-align: center;
+}
+
+.footing p{
+  color: #FFF;
+  text-align: center;
+}
+
+/**footing code closing**/

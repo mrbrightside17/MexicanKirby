@@ -1,0 +1,147 @@
+
+/**Carousel code opening**/
+.carousel-inner .item .carousel-caption h3{
+  font-weight: bold;
+}
+
+.carousel-inner .item .carousel-caption p{
+
+}
+/**Carousel code closing**/
+
+/**Text font assignment**/
+
+.whyUsSection{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.whyUs{
+  text-align: justify;
+}
+
+.whyUs>h2{
+  text-align: center;
+  border-bottom: 10px #006847 solid;
+  width: 50%;
+  margin: auto;
+  padding: 2% 0px;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.text > p {
+  text-align: justify;
+  padding:10px;
+  
+}
+/**Text font assignment**/
+
+/** Servicios**/
+.serviciosSection{
+ padding: 2% 0; 
+}
+
+.serviciosSection>div:first-child{
+  text-align: center;
+}
+
+.serviciosSection h2{
+  position: relative;
+  width: 40%;
+  margin: 5% auto;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.serviciosSection h2::before{
+  content: '';
+  width: 60%;
+  height: 10px;
+  background-color: #006847;
+  position: absolute;
+  left: 20%;
+  bottom: -15px;
+}
+
+.imgsServicios figure{
+  padding: 20px;
+  
+}
+
+.imgsServicios figure img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+/**Servicios**/
+
+
+
+
+/**Clients Section**/
+
+.clientesSection{
+  
+  color: white;
+}
+
+.clientesSection > div{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.clientesSection > div:first-child{
+  text-align: center;
+}
+.clientesSection h2{
+  position: relative;
+  width: 40%;
+  margin: 5% auto;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.clientesSection h2::before{
+  content: '';
+  width: 60%;
+  height: 10px;
+  background-color: #006847;
+  position: absolute;
+  left: 20%;
+  bottom: -15px;
+}
+
+.imgsClientes{
+  padding-bottom: 5%;
+}
+
+
+.imgsClientes figure{
+  padding: 20px;
+  
+}
+
+.imgsClientes figure>img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+/**End clients section*/
+
+
+/**iframe code opening**/
+.embed-responsive-item{
+  width:90%;
+  height:90%;
+  padding:10px;
+}
+/**iframe code closing**/

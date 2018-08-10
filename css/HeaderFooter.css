@@ -21,6 +21,7 @@ header .navbar{
 }
 .img-responsive{
   padding:10px;
+  width:55%;
   margin:0 auto;
 }
 

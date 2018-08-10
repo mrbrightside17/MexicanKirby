@@ -8,3 +8,14 @@
   color:#006847;
   cursor:pointer;
 }
+
+#miAudio{
+  width: 100%;
+  margin: 5% 0 0;
+}
+#nombreMiAudio{
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-weight: bolder;
+}

@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="css/HeaderFooter.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/repertorio.css">
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/reproductor.js"></script>    
   </head>
   <body>
     <!--Header-->
@@ -23,11 +25,20 @@
       printHeader("repertorio");
     ?>
   <div class="container-fluid">
-    <div class="col-sm-3"></div>
-    <div class="col-sm-6">
+    <div class="col-xs-12 text-center">
       <h2>Repertorio de canciones</h2>
     </div>
+
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <audio src="Mariachi.mp3" id="miAudio" controls="controls" type="audio/mpeg" preload="preload">
+      </audio>
+      <span id="nombreMiAudio"></span>
+    </div>
+
+
   </div>
+
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4">

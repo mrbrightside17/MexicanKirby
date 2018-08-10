@@ -31,6 +31,7 @@
         <div class="col-sm-1"></div>
         <div class="col-sm-5 text-center">
           <div class="col-xs-12 UpperContactBarInferior"></div>
+
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="item active">
@@ -47,8 +48,18 @@
                 </div>
               </div>
             </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
             <div class="UpperContactBarInferior"></div>
           </div>
+
           <div class="col-sm-5">
             <div class="col-xs-12 text-left servicio">
               <h3>Serenata Sencilla</h3>

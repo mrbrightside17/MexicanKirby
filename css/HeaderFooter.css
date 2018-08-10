@@ -6,9 +6,16 @@ html, body{
 
 /**Font**/
 @font-face{
-  font-family: sans-serif;
-
+  font-family: "SquadaOne";
+  src: url("../fonts/SquadaOne-Regular.ttf");
 }
+
+
+@font-face{
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
 
 div#datosSuperior{
   padding: 10px 5%;
@@ -18,6 +25,7 @@ div#datosSuperior{
 
 header .navbar{
   border-radius: 0;
+  font-size: 1.5em;
 }
 .img-responsive{
   padding:10px;
@@ -138,3 +146,18 @@ i.fa-envelope, i.fa-phone{
 }
 
 /**footing code closing**/
+
+header .navbar{
+  font-size: 1.5em;
+}
+header .navbar,
+h1,h2,h3{
+  font-family: "SquadaOne";
+  font-weight: initial;
+}
+
+
+
+p{
+  font-family: "Roboto"!important;
+}
